@@ -1,0 +1,2 @@
+2022-06-01 22:09:38.865 +03:00 [INF] I am GetAllLocatin
+2022-06-01 22:13:06.144 +03:00 [ERR] Sequence contains no elements

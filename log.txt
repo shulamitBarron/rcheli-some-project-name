@@ -1,0 +1,1268 @@
+2022-06-01 22:55:27.145 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-01 22:55:27.151 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-01 22:55:27.153 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-01 22:55:27.154 +03:00 [INF] Hosting environment: Development
+2022-06-01 22:55:27.154 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-01 22:55:28.149 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-01 22:55:28.440 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 296.9852ms
+2022-06-01 22:55:28.471 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-01 22:55:28.472 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-01 22:55:28.478 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.6332ms
+2022-06-01 22:55:28.528 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.1529ms
+2022-06-01 22:55:28.687 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-01 22:55:28.826 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.1315ms
+2022-06-01 22:55:37.585 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-01 22:55:37.594 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-01 22:55:37.610 +03:00 [INF] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] Get() on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-01 22:55:37.613 +03:00 [INF] I am GetAllLocatin
+2022-06-01 22:55:37.619 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-01 22:55:37.633 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api) in 16.44ms
+2022-06-01 22:55:37.634 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-01 22:55:37.634 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 200 - application/json;+charset=utf-8 49.7385ms
+2022-06-01 22:55:46.429 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location application/json 149
+2022-06-01 22:55:46.429 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-01 22:55:46.442 +03:00 [INF] Route matched with {action = "Post", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(System.String, System.Collections.Generic.List`1[Location_Lesson_1.Models.Location]) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-01 22:55:46.478 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2022-06-01 22:55:46.480 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api) in 37.4958ms
+2022-06-01 22:55:46.480 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-01 22:55:46.480 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location application/json 149 - 400 - application/problem+json;+charset=utf-8 51.3974ms
+2022-06-01 22:56:12.577 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location?id=111 application/json 149
+2022-06-01 22:56:12.578 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-01 22:56:12.578 +03:00 [INF] Route matched with {action = "Post", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Post(System.String, System.Collections.Generic.List`1[Location_Lesson_1.Models.Location]) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-01 22:56:12.592 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 200
+2022-06-01 22:56:12.593 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api) in 14.8051ms
+2022-06-01 22:56:12.593 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-01 22:56:12.593 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location?id=111 application/json 149 - 200 0 - 15.6083ms
+2022-06-02 02:08:24.884 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/Location/city/Jerusalem - -
+2022-06-02 02:08:24.921 +03:00 [WRN] Failed to determine the https port for redirect.
+2022-06-02 02:08:24.926 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:08:24.933 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:08:24.934 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:08:24.937 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:08:24.950 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/Location/city/Jerusalem - - - 500 - application/json;+charset=utf-8 69.3534ms
+2022-06-02 02:08:51.482 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/Location/city/Jerusalem - -
+2022-06-02 02:08:51.519 +03:00 [WRN] Failed to determine the https port for redirect.
+2022-06-02 02:08:51.524 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:08:51.532 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:08:51.533 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:08:51.540 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:08:51.553 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/Location/city/Jerusalem - - - 500 - application/json;+charset=utf-8 74.7870ms
+2022-06-02 02:10:14.523 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Location/GetLocation/111 text/plain;+charset=utf-8 5
+2022-06-02 02:10:14.553 +03:00 [WRN] Failed to determine the https port for redirect.
+2022-06-02 02:10:14.558 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Location/GetLocation/111 text/plain;+charset=utf-8 5 - 404 - - 38.2877ms
+2022-06-02 02:10:14.577 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost/api/Location/city/Jerusalem - -
+2022-06-02 02:10:14.590 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:10:14.597 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:10:14.598 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:10:14.600 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:10:14.610 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost/api/Location/city/Jerusalem - - - 500 - application/json;+charset=utf-8 32.6116ms
+2022-06-02 02:12:41.052 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Location/GetLocation/111 text/plain;+charset=utf-8 5
+2022-06-02 02:12:41.082 +03:00 [WRN] Failed to determine the https port for redirect.
+2022-06-02 02:12:41.087 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Location/GetLocation/111 text/plain;+charset=utf-8 5 - 404 - - 38.2714ms
+2022-06-02 02:13:57.758 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost/api/Location/GetLocation/111 text/plain;+charset=utf-8 5
+2022-06-02 02:13:57.788 +03:00 [WRN] Failed to determine the https port for redirect.
+2022-06-02 02:13:57.792 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost/api/Location/GetLocation/111 text/plain;+charset=utf-8 5 - 404 - - 38.0546ms
+2022-06-02 02:31:13.230 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-02 02:31:13.238 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-02 02:31:13.240 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-02 02:31:13.240 +03:00 [INF] Hosting environment: Development
+2022-06-02 02:31:13.240 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-02 02:31:14.271 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 02:31:14.638 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 370.9021ms
+2022-06-02 02:31:14.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 02:31:14.727 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 02:31:14.731 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.8546ms
+2022-06-02 02:31:14.774 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.8088ms
+2022-06-02 02:31:14.939 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 02:31:15.072 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 133.8592ms
+2022-06-02 02:31:38.668 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location?id=1478965412321 application/json 143
+2022-06-02 02:31:38.674 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-02 02:31:38.699 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-02 02:31:38.704 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:31:38.741 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:31:38.746 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location?id=1478965412321 application/json 143 - 500 - application/json;+charset=utf-8 78.3775ms
+2022-06-02 02:47:05.687 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-02 02:47:05.694 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-02 02:47:05.697 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-02 02:47:05.697 +03:00 [INF] Hosting environment: Development
+2022-06-02 02:47:05.697 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-02 02:47:06.542 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 02:47:06.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 456.5063ms
+2022-06-02 02:47:07.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 02:47:07.015 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 02:47:07.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.2105ms
+2022-06-02 02:47:07.064 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 49.6607ms
+2022-06-02 02:47:07.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 02:47:07.395 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 153.5369ms
+2022-06-02 02:47:16.804 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location application/json 149
+2022-06-02 02:47:16.810 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-02 02:47:16.852 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-02 02:47:16.856 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:47:16.893 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:47:16.897 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location application/json 149 - 500 - application/json;+charset=utf-8 93.9780ms
+2022-06-02 02:51:14.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/city/f - -
+2022-06-02 02:51:14.072 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:51:14.074 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:51:14.075 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:51:14.075 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:51:14.075 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/city/f - - - 500 - application/json;+charset=utf-8 9.5431ms
+2022-06-02 02:51:34.639 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/sv  - -
+2022-06-02 02:51:34.640 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 02:51:34.643 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 02:51:34.643 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:51:34.644 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:51:34.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/sv  - - - 500 - application/json;+charset=utf-8 5.5653ms
+2022-06-02 02:51:36.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/sv  - -
+2022-06-02 02:51:36.984 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 02:51:36.987 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 02:51:36.987 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:51:36.988 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:51:36.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/sv  - - - 500 - application/json;+charset=utf-8 4.5670ms
+2022-06-02 02:53:52.010 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-02 02:53:52.021 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-02 02:53:52.025 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-02 02:53:52.025 +03:00 [INF] Hosting environment: Development
+2022-06-02 02:53:52.025 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-02 02:53:52.991 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 02:53:53.356 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 372.2130ms
+2022-06-02 02:53:53.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 02:53:53.391 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 02:53:53.396 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.8300ms
+2022-06-02 02:53:53.447 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.9854ms
+2022-06-02 02:53:53.607 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 02:53:53.708 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.9478ms
+2022-06-02 02:53:59.458 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-02 02:53:59.465 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:53:59.487 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:53:59.491 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:53:59.527 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:53:59.532 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 74.7839ms
+2022-06-02 02:54:20.643 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 02:54:20.665 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 21.9333ms
+2022-06-02 02:54:20.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 02:54:20.680 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 02:54:20.681 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 0.7382ms
+2022-06-02 02:54:20.720 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 39.4799ms
+2022-06-02 02:54:20.803 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 02:54:20.806 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.4759ms
+2022-06-02 02:54:20.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/favicon-32x32.png - -
+2022-06-02 02:54:20.824 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-06-02 02:54:20.824 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/favicon-32x32.png - - - 200 628 image/png 9.4115ms
+2022-06-02 02:54:27.370 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-02 02:54:27.370 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:54:27.373 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:54:27.373 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:54:27.374 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:54:27.374 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 4.3557ms
+2022-06-02 02:55:18.922 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-02 02:55:18.928 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-02 02:55:18.930 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-02 02:55:18.931 +03:00 [INF] Hosting environment: Development
+2022-06-02 02:55:18.931 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-02 02:55:20.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 02:55:20.758 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 650.3728ms
+2022-06-02 02:55:20.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 02:55:20.791 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 02:55:20.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.0549ms
+2022-06-02 02:55:20.860 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 69.0772ms
+2022-06-02 02:55:20.979 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 02:55:21.125 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.9607ms
+2022-06-02 02:55:30.700 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-02 02:55:30.707 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:55:30.733 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:55:30.736 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:55:30.768 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:55:30.772 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 71.4721ms
+2022-06-02 02:55:52.807 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location?id=nnnnnn application/json 149
+2022-06-02 02:55:52.807 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-02 02:55:52.812 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-02 02:55:52.813 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:55:52.813 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:55:52.813 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location?id=nnnnnn application/json 149 - 500 - application/json;+charset=utf-8 6.1068ms
+2022-06-02 02:56:18.697 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/111 - -
+2022-06-02 02:56:18.700 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 02:56:18.702 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 02:56:18.703 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:56:18.703 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:56:18.704 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/111 - - - 500 - application/json;+charset=utf-8 6.4776ms
+2022-06-02 02:56:53.943 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/city/Jerusalem - -
+2022-06-02 02:56:53.945 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:56:53.948 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 02:56:53.949 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 02:56:53.949 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 02:56:53.950 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/city/Jerusalem - - - 500 - application/json;+charset=utf-8 7.0640ms
+2022-06-02 02:57:02.751 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 02:57:02.766 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 14.8378ms
+2022-06-02 02:57:02.785 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 02:57:02.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 1.3380ms
+2022-06-02 02:57:02.792 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 02:57:02.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.7795ms
+2022-06-02 02:57:02.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 02:57:02.911 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 2.4286ms
+2022-06-02 03:29:03.834 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-02 03:29:03.845 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-02 03:29:03.850 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-02 03:29:03.851 +03:00 [INF] Hosting environment: Development
+2022-06-02 03:29:03.851 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-02 03:29:04.428 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-02 03:29:04.865 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 441.8247ms
+2022-06-02 03:29:04.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-02 03:29:04.908 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-02 03:29:04.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 7.0088ms
+2022-06-02 03:29:04.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 58.1900ms
+2022-06-02 03:29:05.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-02 03:29:05.151 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 89.2691ms
+2022-06-02 03:29:16.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-02 03:29:16.148 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 03:29:16.171 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-02 03:29:16.174 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 03:29:16.206 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 03:29:16.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 69.6108ms
+2022-06-02 03:29:36.598 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/111 - -
+2022-06-02 03:29:36.600 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 03:29:36.605 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-02 03:29:36.606 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-02 03:29:36.606 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-02 03:29:36.607 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/111 - - - 500 - application/json;+charset=utf-8 9.2522ms
+2022-06-03 03:27:27.510 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-03 03:27:27.520 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-03 03:27:27.524 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-03 03:27:27.525 +03:00 [INF] Hosting environment: Development
+2022-06-03 03:27:27.525 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-03 03:27:28.192 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger - -
+2022-06-03 03:27:28.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger - - - 301 0 - 183.4112ms
+2022-06-03 03:27:28.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-03 03:27:28.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 296.9623ms
+2022-06-03 03:27:28.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui.css - -
+2022-06-03 03:27:28.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui-standalone-preset.js - -
+2022-06-03 03:27:28.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui-bundle.js - -
+2022-06-03 03:27:28.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-03 03:27:28.705 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-03 03:27:28.710 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.1315ms
+2022-06-03 03:27:28.801 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-06-03 03:27:28.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui.css - - - 200 143632 text/css 97.0485ms
+2022-06-03 03:27:28.816 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-06-03 03:27:28.816 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 111.8568ms
+2022-06-03 03:27:28.881 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-06-03 03:27:28.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 176.9468ms
+2022-06-03 03:27:28.904 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 199.0003ms
+2022-06-03 03:27:29.601 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-03 03:27:29.786 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 185.2315ms
+2022-06-03 03:27:45.267 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-03 03:27:45.273 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:27:45.418 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:27:45.426 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-03 03:27:45.538 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-03 03:27:45.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 281.4439ms
+2022-06-03 03:28:27.261 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-03 03:28:27.274 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-03 03:28:27.279 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-03 03:28:27.280 +03:00 [INF] Hosting environment: Development
+2022-06-03 03:28:27.280 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-03 03:28:27.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-03 03:28:28.316 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 429.9636ms
+2022-06-03 03:28:28.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-03 03:28:28.345 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-03 03:28:28.349 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 3.7617ms
+2022-06-03 03:28:28.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 114.2143ms
+2022-06-03 03:28:28.815 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-03 03:28:28.960 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 145.0818ms
+2022-06-03 03:28:35.044 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-03 03:28:35.058 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:28:35.125 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:28:35.139 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-03 03:28:35.261 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-03 03:28:35.274 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 229.8147ms
+2022-06-03 03:29:10.860 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-03 03:29:10.925 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 65.1297ms
+2022-06-03 03:29:10.959 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-03 03:29:10.960 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-03 03:29:10.961 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 1.8381ms
+2022-06-03 03:29:11.080 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 120.5374ms
+2022-06-03 03:29:11.303 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-03 03:29:11.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 10.4829ms
+2022-06-03 03:29:11.322 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/favicon-32x32.png - -
+2022-06-03 03:29:11.357 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-06-03 03:29:11.357 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/favicon-32x32.png - - - 200 628 image/png 35.8077ms
+2022-06-03 03:29:17.818 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-03 03:29:17.818 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:29:17.828 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:29:17.829 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-03 03:29:17.832 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-03 03:29:17.833 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 14.8410ms
+2022-06-03 03:29:27.304 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-03 03:29:27.305 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:29:27.311 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:29:27.312 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-03 03:29:27.313 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-03 03:29:27.314 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - application/json;+charset=utf-8 10.3544ms
+2022-06-03 03:30:08.309 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-03 03:30:08.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 62.6986ms
+2022-06-03 03:30:08.416 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-03 03:30:08.421 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.1548ms
+2022-06-03 03:30:08.431 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-03 03:30:08.573 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 142.0047ms
+2022-06-03 03:30:08.851 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-03 03:30:08.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 5.2917ms
+2022-06-03 03:30:19.546 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/111 - -
+2022-06-03 03:30:19.551 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-03 03:30:19.561 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-03 03:30:19.562 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-03 03:30:19.563 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-03 03:30:19.564 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/111 - - - 500 - application/json;+charset=utf-8 18.6896ms
+2022-06-03 03:30:40.616 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/city/ee - -
+2022-06-03 03:30:40.618 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:30:40.625 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:30:40.626 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-03 03:30:40.627 +03:00 [ERR] Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+2022-06-03 03:30:40.627 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/city/ee - - - 500 - application/json;+charset=utf-8 11.6840ms
+2022-06-03 03:31:20.462 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-03 03:31:20.473 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-03 03:31:20.477 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-03 03:31:20.478 +03:00 [INF] Hosting environment: Development
+2022-06-03 03:31:20.478 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-03 03:31:21.426 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-03 03:31:22.097 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 673.0024ms
+2022-06-03 03:31:22.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-03 03:31:22.136 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-03 03:31:22.153 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 13.0054ms
+2022-06-03 03:31:22.222 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 85.7275ms
+2022-06-03 03:31:22.445 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-03 03:31:22.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 211.3545ms
+2022-06-03 03:31:32.913 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-03 03:31:32.928 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:31:32.994 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-03 03:31:33.008 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-03 03:31:33.132 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 500 - text/plain;+charset=utf-8 219.1287ms
+2022-06-03 03:32:18.763 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location application/json 149
+2022-06-03 03:32:18.764 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-03 03:32:18.774 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-03 03:32:18.777 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'Location_Lesson_1.Controllers.LocationController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerRequestDelegateFactory.<>c__DisplayClass10_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-06-03 03:32:18.779 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location application/json 149 - 500 - text/plain;+charset=utf-8 16.6466ms
+2022-06-05 22:54:51.650 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-05 22:54:51.663 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-05 22:54:51.667 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-05 22:54:51.667 +03:00 [INF] Hosting environment: Development
+2022-06-05 22:54:51.667 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-05 22:54:52.475 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger - -
+2022-06-05 22:54:52.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger - - - 301 0 - 222.9147ms
+2022-06-05 22:54:52.703 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-05 22:54:53.013 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 309.8411ms
+2022-06-05 22:54:53.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui.css - -
+2022-06-05 22:54:53.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui-bundle.js - -
+2022-06-05 22:54:53.052 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-05 22:54:53.051 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui-standalone-preset.js - -
+2022-06-05 22:54:53.062 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 10.2324ms
+2022-06-05 22:54:53.088 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-06-05 22:54:53.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui.css - - - 200 143632 text/css 44.2571ms
+2022-06-05 22:54:53.127 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-05 22:54:53.161 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-06-05 22:54:53.163 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 111.9648ms
+2022-06-05 22:54:53.186 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-06-05 22:54:53.187 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 135.9662ms
+2022-06-05 22:54:53.231 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 103.9207ms
+2022-06-05 22:54:53.945 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-05 22:54:54.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 194.8719ms
+2022-06-05 22:54:59.308 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-05 22:54:59.321 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-05 22:54:59.361 +03:00 [INF] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] Get() on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-05 22:54:59.366 +03:00 [INF] I am Get All Locatin
+2022-06-05 22:55:21.722 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-05 22:55:21.741 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-05 22:55:21.749 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-05 22:55:21.750 +03:00 [INF] Hosting environment: Development
+2022-06-05 22:55:21.750 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-05 22:55:22.737 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-05 22:55:23.196 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 463.7026ms
+2022-06-05 22:55:23.241 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-05 22:55:23.243 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-05 22:55:23.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.5398ms
+2022-06-05 22:55:23.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.0849ms
+2022-06-05 22:55:23.706 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-05 22:55:23.923 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 217.0285ms
+2022-06-05 22:55:29.339 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-05 22:55:29.354 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-05 22:55:29.407 +03:00 [INF] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] Get() on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-05 22:55:29.417 +03:00 [INF] I am Get All Locatin
+2022-06-05 22:55:29.440 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-05 22:55:29.502 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api) in 80.0148ms
+2022-06-05 22:55:29.504 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-05 22:55:29.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 200 - application/json;+charset=utf-8 166.1910ms
+2022-06-05 22:55:46.552 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location?id=111 application/json 149
+2022-06-05 22:55:46.553 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-05 22:55:46.627 +03:00 [INF] Route matched with {action = "Post", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Location]] Post(System.String, System.Collections.Generic.List`1[Location_Lesson_1.Models.Location]) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-05 22:55:46.755 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-05 22:55:46.756 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api) in 128.667ms
+2022-06-05 22:55:46.756 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-05 22:55:46.756 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location?id=111 application/json 149 - 200 - application/json;+charset=utf-8 204.3846ms
+2022-06-05 22:55:55.142 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Location?id=111 application/json 149
+2022-06-05 22:55:55.142 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-05 22:55:55.142 +03:00 [INF] Route matched with {action = "Post", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Location]] Post(System.String, System.Collections.Generic.List`1[Location_Lesson_1.Models.Location]) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-05 22:55:55.145 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-05 22:55:55.146 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api) in 3.3864ms
+2022-06-05 22:55:55.146 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Post (CoronaApp.Api)'
+2022-06-05 22:55:55.146 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Location?id=111 application/json 149 - 200 - application/json;+charset=utf-8 4.7205ms
+2022-06-05 22:56:14.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/111 - -
+2022-06-05 22:56:14.164 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-05 22:56:14.171 +03:00 [INF] Route matched with {action = "GetById", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] GetById(System.String) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-05 22:56:14.177 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-05 22:56:14.178 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api) in 6.1281ms
+2022-06-05 22:56:14.178 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-05 22:56:14.178 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/111 - - - 200 - application/json;+charset=utf-8 17.4047ms
+2022-06-05 22:56:39.274 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/city/Jerusalem - -
+2022-06-05 22:56:39.276 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-05 22:56:39.284 +03:00 [INF] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] Get(System.String) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-05 22:56:39.291 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-05 22:56:39.292 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api) in 7.4539ms
+2022-06-05 22:56:39.292 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-05 22:56:39.292 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/city/Jerusalem - - - 200 - application/json;+charset=utf-8 18.7777ms
+2022-06-06 01:20:14.933 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 01:20:14.944 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 01:20:14.948 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 01:20:14.949 +03:00 [INF] Hosting environment: Development
+2022-06-06 01:20:14.949 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 01:20:15.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 01:20:16.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 469.6453ms
+2022-06-06 01:20:16.484 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 01:20:16.490 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.3197ms
+2022-06-06 01:20:16.549 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 01:20:16.644 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 94.8928ms
+2022-06-06 01:20:17.049 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 01:20:17.285 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 235.9632ms
+2022-06-06 01:22:26.228 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 01:22:26.240 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 01:22:26.243 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 01:22:26.244 +03:00 [INF] Hosting environment: Development
+2022-06-06 01:22:26.244 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 01:22:27.231 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 01:22:27.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 436.0796ms
+2022-06-06 01:22:27.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 01:22:27.704 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 01:22:27.711 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 6.8176ms
+2022-06-06 01:22:27.796 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.9237ms
+2022-06-06 01:22:28.006 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 01:22:28.199 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 195.4196ms
+2022-06-06 01:26:23.298 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location/id/111 - -
+2022-06-06 01:26:23.337 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-06 01:26:23.431 +03:00 [INF] Route matched with {action = "GetById", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] GetById(System.String) on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-06 01:26:23.536 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-06 01:26:23.571 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api) in 122.9454ms
+2022-06-06 01:26:23.574 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.GetById (CoronaApp.Api)'
+2022-06-06 01:26:23.575 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location/id/111 - - - 200 - application/json;+charset=utf-8 277.1570ms
+2022-06-06 01:26:30.239 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-06 01:26:30.240 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-06 01:26:30.248 +03:00 [INF] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] Get() on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-06 01:26:30.252 +03:00 [INF] I am Get All Locatin
+2022-06-06 01:26:30.254 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-06 01:26:30.255 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api) in 6.4627ms
+2022-06-06 01:26:30.255 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-06 01:26:30.255 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 200 - application/json;+charset=utf-8 15.9007ms
+2022-06-06 03:06:23.184 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 03:06:23.199 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 03:06:23.204 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 03:06:23.205 +03:00 [INF] Hosting environment: Development
+2022-06-06 03:06:23.205 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 03:06:24.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 03:06:24.643 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 448.9885ms
+2022-06-06 03:06:24.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 03:06:24.683 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 03:06:24.687 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.5686ms
+2022-06-06 03:06:24.785 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 101.9738ms
+2022-06-06 03:06:25.046 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 03:06:25.201 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 154.5398ms
+2022-06-06 03:06:36.631 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 03:06:36.639 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:06:36.658 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:06:36.664 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 1.6708ms
+2022-06-06 03:06:36.699 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:06:36.708 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:06:36.828 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:06:36.834 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 202.7603ms
+2022-06-06 03:07:27.527 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient/name/Cohen - -
+2022-06-06 03:07:27.529 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api)'
+2022-06-06 03:07:27.562 +03:00 [INF] Route matched with {action = "GetPatientByName", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetPatientByName(System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:07:27.563 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api) in 1.4505ms
+2022-06-06 03:07:27.564 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api)'
+2022-06-06 03:07:27.565 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:07:27.566 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:07:27.567 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient/name/Cohen - - - 500 - application/json;+charset=utf-8 40.2995ms
+2022-06-06 03:07:46.007 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Patient/id/111 application/json 237
+2022-06-06 03:07:46.008 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api)'
+2022-06-06 03:07:46.013 +03:00 [INF] Route matched with {action = "AddPatient", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] AddPatient(Location_Lesson_1.Models.Patient, System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:07:46.014 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api) in 1.0742ms
+2022-06-06 03:07:46.015 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api)'
+2022-06-06 03:07:46.016 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method25(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:07:46.017 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:07:46.018 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Patient/id/111 application/json 237 - 500 - application/json;+charset=utf-8 11.5095ms
+2022-06-06 03:08:03.715 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7146/api/Patient/id/111 - -
+2022-06-06 03:08:03.716 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api)'
+2022-06-06 03:08:03.724 +03:00 [INF] Route matched with {action = "DeletePatient", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] DeletePatient(System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:08:03.727 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api) in 2.2261ms
+2022-06-06 03:08:03.728 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api)'
+2022-06-06 03:08:03.729 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method33(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:08:03.730 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:08:03.731 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7146/api/Patient/id/111 - - - 500 - application/json;+charset=utf-8 15.1983ms
+2022-06-06 03:08:13.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 03:08:13.416 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 42.3480ms
+2022-06-06 03:08:13.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 03:08:13.455 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 03:08:13.471 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 16.5976ms
+2022-06-06 03:08:13.571 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 116.0848ms
+2022-06-06 03:08:13.748 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 03:08:13.752 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.4563ms
+2022-06-06 03:08:13.763 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/favicon-32x32.png - -
+2022-06-06 03:08:13.773 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-06-06 03:08:13.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/favicon-32x32.png - - - 200 628 image/png 10.4968ms
+2022-06-06 03:08:19.813 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Location - -
+2022-06-06 03:08:19.813 +03:00 [INF] Executing endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-06 03:08:19.818 +03:00 [INF] Route matched with {action = "Get", controller = "Location"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.IEnumerable`1[Location_Lesson_1.Models.Location]] Get() on controller Location_Lesson_1.Controllers.LocationController (CoronaApp.Api).
+2022-06-06 03:08:19.824 +03:00 [INF] I am Get All Locatin
+2022-06-06 03:08:19.833 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Location, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-06 03:08:19.842 +03:00 [INF] Executed action Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api) in 24.2986ms
+2022-06-06 03:08:19.843 +03:00 [INF] Executed endpoint 'Location_Lesson_1.Controllers.LocationController.Get (CoronaApp.Api)'
+2022-06-06 03:08:19.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Location - - - 200 - application/json;+charset=utf-8 29.9655ms
+2022-06-06 03:08:58.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 03:08:58.818 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 40.7982ms
+2022-06-06 03:08:58.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 03:08:58.843 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 1.8666ms
+2022-06-06 03:08:58.863 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 03:08:58.988 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 124.8398ms
+2022-06-06 03:08:59.164 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 03:08:59.171 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 6.9618ms
+2022-06-06 03:09:06.018 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 03:09:06.019 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:09:06.019 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:09:06.021 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 1.6836ms
+2022-06-06 03:09:06.022 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:09:06.023 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:09:06.024 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:09:06.025 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 7.1820ms
+2022-06-06 03:17:37.329 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 03:17:37.341 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 03:17:37.346 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 03:17:37.347 +03:00 [INF] Hosting environment: Development
+2022-06-06 03:17:37.347 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 03:17:38.594 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 03:17:39.118 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 531.2400ms
+2022-06-06 03:17:39.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 03:17:39.156 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 03:17:39.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 4.9961ms
+2022-06-06 03:17:39.224 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 68.2838ms
+2022-06-06 03:17:39.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 03:17:39.539 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.7487ms
+2022-06-06 03:17:46.809 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 03:17:46.821 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:17:46.864 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:17:46.879 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 3.7356ms
+2022-06-06 03:17:46.882 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:17:46.892 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:17:47.009 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:17:47.020 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 211.7478ms
+2022-06-06 03:19:46.250 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 03:19:46.263 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 03:19:46.266 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 03:19:46.267 +03:00 [INF] Hosting environment: Development
+2022-06-06 03:19:46.267 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 03:19:47.836 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 03:19:48.263 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 433.8195ms
+2022-06-06 03:19:48.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 03:19:48.301 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 03:19:48.318 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 19.5525ms
+2022-06-06 03:19:48.391 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 89.2584ms
+2022-06-06 03:19:48.517 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 03:19:48.648 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 131.2962ms
+2022-06-06 03:20:02.095 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 03:20:02.116 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:20:02.168 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:20:02.189 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 5.7545ms
+2022-06-06 03:20:02.194 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:20:02.209 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:20:02.334 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:20:02.347 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 252.1048ms
+2022-06-06 03:20:21.037 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7146/api/Patient/id/222 - -
+2022-06-06 03:20:21.042 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api)'
+2022-06-06 03:20:21.084 +03:00 [INF] Route matched with {action = "DeletePatient", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] DeletePatient(System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:20:21.085 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api) in 1.52ms
+2022-06-06 03:20:21.087 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api)'
+2022-06-06 03:20:21.088 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:20:21.090 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Dal.Models.PatientRepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:20:21.090 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7146/api/Patient/id/222 - - - 500 - application/json;+charset=utf-8 53.5145ms
+2022-06-06 03:21:53.851 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 03:21:53.862 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 03:21:53.865 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 03:21:53.866 +03:00 [INF] Hosting environment: Development
+2022-06-06 03:21:53.866 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 03:21:55.553 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 03:21:55.994 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 446.2771ms
+2022-06-06 03:21:56.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 03:21:56.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 03:21:56.037 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 5.3448ms
+2022-06-06 03:21:56.143 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 111.4387ms
+2022-06-06 03:21:56.268 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 03:21:56.389 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 121.1642ms
+2022-06-06 03:22:06.261 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 03:22:06.272 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:22:06.314 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 03:22:06.327 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 3.5459ms
+2022-06-06 03:22:06.333 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 03:22:06.342 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 03:22:06.443 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 03:22:06.451 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 189.6952ms
+2022-06-06 13:19:48.137 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 13:19:48.150 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 13:19:48.154 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 13:19:48.154 +03:00 [INF] Hosting environment: Development
+2022-06-06 13:19:48.155 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 13:19:49.113 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 13:19:49.595 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 493.8349ms
+2022-06-06 13:19:49.793 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 13:19:49.803 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 9.2369ms
+2022-06-06 13:19:50.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 13:19:50.367 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 166.5784ms
+2022-06-06 13:20:22.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 13:20:22.762 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 13:20:22.778 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 13:20:22.787 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 2.5972ms
+2022-06-06 13:20:22.789 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 13:20:22.794 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 13:20:22.857 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 13:20:22.861 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 107.5535ms
+2022-06-06 13:20:44.622 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 13:20:44.623 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 13:20:44.624 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 13:20:44.625 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 0.5495ms
+2022-06-06 13:20:44.625 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 13:20:44.625 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 13:20:44.626 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 13:20:44.626 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 4.1930ms
+2022-06-06 13:45:57.333 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 13:45:57.341 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 13:45:57.343 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 13:45:57.343 +03:00 [INF] Hosting environment: Development
+2022-06-06 13:45:57.344 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 13:45:58.079 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 13:45:58.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 514.5218ms
+2022-06-06 13:45:58.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 13:45:58.612 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 13:45:58.621 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 9.0113ms
+2022-06-06 13:45:58.692 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.2806ms
+2022-06-06 13:45:58.806 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 13:45:58.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 106.0671ms
+2022-06-06 13:46:57.030 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient - -
+2022-06-06 13:46:57.039 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 13:46:57.061 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 13:46:57.067 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 1.604ms
+2022-06-06 13:46:57.068 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 13:46:57.073 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 13:46:57.106 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 13:46:57.110 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient - - - 500 - application/json;+charset=utf-8 80.4288ms
+2022-06-06 13:49:21.822 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Patient/id/444 application/json 239
+2022-06-06 13:49:21.824 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api)'
+2022-06-06 13:49:21.843 +03:00 [INF] Route matched with {action = "AddPatient", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] AddPatient(Location_Lesson_1.Models.Patient, System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 13:49:21.844 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api) in 0.5867ms
+2022-06-06 13:49:21.844 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api)'
+2022-06-06 13:49:21.844 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method17(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 13:49:21.845 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 13:49:21.845 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Patient/id/444 application/json 239 - 500 - application/json;+charset=utf-8 24.0256ms
+2022-06-06 22:52:24.579 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 22:52:24.589 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 22:52:24.592 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 22:52:24.592 +03:00 [INF] Hosting environment: Development
+2022-06-06 22:52:24.592 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 22:52:25.466 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger - -
+2022-06-06 22:52:25.663 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger - - - 301 0 - 200.1234ms
+2022-06-06 22:52:25.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 22:52:25.996 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 312.0124ms
+2022-06-06 22:52:26.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui-bundle.js - -
+2022-06-06 22:52:26.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/swagger-ui-standalone-preset.js - -
+2022-06-06 22:52:26.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 22:52:26.072 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 22:52:26.078 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 7.6636ms
+2022-06-06 22:52:26.205 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-06-06 22:52:26.208 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 136.9364ms
+2022-06-06 22:52:26.213 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 141.6069ms
+2022-06-06 22:52:26.227 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-06-06 22:52:26.227 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 156.9756ms
+2022-06-06 22:52:26.777 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 22:52:26.870 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.1837ms
+2022-06-06 22:52:35.784 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient/GetAllPatients - -
+2022-06-06 22:52:35.800 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 22:52:35.836 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 22:52:35.851 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 3.701ms
+2022-06-06 22:52:35.855 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 22:52:35.863 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 22:52:35.971 +03:00 [ERR] Unable to resolve service for type 'CoronaApp.Services.Repositories.IPatientrepository' while attempting to activate 'CoronaApp.Api.Controllers.PatientController'.
+2022-06-06 22:52:35.981 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient/GetAllPatients - - - 500 - application/json;+charset=utf-8 196.6408ms
+2022-06-06 22:59:51.306 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 22:59:51.317 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 22:59:51.322 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 22:59:51.322 +03:00 [INF] Hosting environment: Development
+2022-06-06 22:59:51.322 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 22:59:52.293 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 22:59:52.850 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 559.4881ms
+2022-06-06 22:59:52.909 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 22:59:52.917 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 7.8063ms
+2022-06-06 22:59:52.937 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 22:59:53.359 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 421.9258ms
+2022-06-06 22:59:53.690 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 22:59:53.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 141.3781ms
+2022-06-06 23:00:01.867 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient/GetAllPatients - -
+2022-06-06 23:00:01.888 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 23:00:01.948 +03:00 [INF] Route matched with {action = "GetAllPatients", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetAllPatients() on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 23:00:01.958 +03:00 [INF] GetAllPatients function called
+2022-06-06 23:00:01.977 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Patient, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-06 23:00:02.009 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api) in 47.0878ms
+2022-06-06 23:00:02.011 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetAllPatients (CoronaApp.Api)'
+2022-06-06 23:00:02.012 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient/GetAllPatients - - - 200 - application/json;+charset=utf-8 144.6132ms
+2022-06-06 23:00:23.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient/GetPatientByName/name/Choen - -
+2022-06-06 23:00:23.233 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api)'
+2022-06-06 23:00:23.269 +03:00 [INF] Route matched with {action = "GetPatientByName", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] GetPatientByName(System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 23:00:23.331 +03:00 [INF] GetPatientByName function called with Choen name
+2022-06-06 23:00:23.333 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Patient, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-06 23:00:23.333 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api) in 63.6721ms
+2022-06-06 23:00:23.334 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api)'
+2022-06-06 23:00:23.334 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient/GetPatientByName/name/Choen - - - 200 - application/json;+charset=utf-8 107.5546ms
+2022-06-06 23:00:48.752 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7146/api/Patient/AddPatient/id/444 application/json 237
+2022-06-06 23:00:48.752 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api)'
+2022-06-06 23:00:48.758 +03:00 [INF] Route matched with {action = "AddPatient", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] AddPatient(Location_Lesson_1.Models.Patient, System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 23:00:49.164 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api) in 405.265ms
+2022-06-06 23:00:49.166 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.AddPatient (CoronaApp.Api)'
+2022-06-06 23:00:49.176 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Sequence contains no matching element
+   at System.Linq.ThrowHelper.ThrowNoMatchException()
+   at System.Linq.Enumerable.First[TSource](IEnumerable`1 source, Func`2 predicate)
+   at CoronaApp.Dal.Models.PatientRepository.AddPatient(Patient patient, String id) in C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\Models\PatientRepository.cs:line 38
+   at CoronaApp.Api.Controllers.PatientController.AddPatient(Patient patient, String id) in C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\Controllers\PatientController.cs:line 32
+   at lambda_method21(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-06-06 23:00:49.320 +03:00 [ERR] Sequence contains no matching element
+2022-06-06 23:00:49.333 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7146/api/Patient/AddPatient/id/444 application/json 237 - 500 - application/json;+charset=utf-8 582.4019ms
+2022-06-06 23:01:15.255 +03:00 [INF] Request starting HTTP/2 DELETE https://localhost:7146/api/Patient/DeletePatient/id/111 - -
+2022-06-06 23:01:15.255 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api)'
+2022-06-06 23:01:15.266 +03:00 [INF] Route matched with {action = "DeletePatient", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Collections.Generic.List`1[Location_Lesson_1.Models.Patient]] DeletePatient(System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 23:01:15.271 +03:00 [INF]  patient 111 was successfully deleted!!!
+2022-06-06 23:01:15.272 +03:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Location_Lesson_1.Models.Patient, CoronaApp.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-06-06 23:01:15.272 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api) in 5.6696ms
+2022-06-06 23:01:15.272 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.DeletePatient (CoronaApp.Api)'
+2022-06-06 23:01:15.273 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7146/api/Patient/DeletePatient/id/111 - - - 200 - application/json;+charset=utf-8 17.3742ms
+2022-06-06 23:04:08.625 +03:00 [INF] Now listening on: https://localhost:7146
+2022-06-06 23:04:08.633 +03:00 [INF] Now listening on: http://localhost:5146
+2022-06-06 23:04:08.636 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-06-06 23:04:08.637 +03:00 [INF] Hosting environment: Development
+2022-06-06 23:04:08.637 +03:00 [INF] Content root path: C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\Location_Lesson_1\
+2022-06-06 23:04:09.531 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/index.html - -
+2022-06-06 23:04:09.923 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/index.html - - - 200 - text/html;charset=utf-8 396.6173ms
+2022-06-06 23:04:09.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - -
+2022-06-06 23:04:09.976 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/_vs/browserLink - -
+2022-06-06 23:04:09.985 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_framework/aspnetcore-browser-refresh.js - - - 200 11996 application/javascript;+charset=utf-8 8.9369ms
+2022-06-06 23:04:10.113 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 136.2545ms
+2022-06-06 23:04:10.374 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - -
+2022-06-06 23:04:10.496 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.2228ms
+2022-06-06 23:04:37.840 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7146/api/Patient/GetPatientByName/name/Naaman - -
+2022-06-06 23:04:37.861 +03:00 [INF] Executing endpoint 'CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api)'
+2022-06-06 23:04:37.943 +03:00 [INF] Route matched with {action = "GetPatientByName", controller = "Patient"}. Executing controller action with signature System.Threading.Tasks.Task`1[Location_Lesson_1.Models.Patient] GetPatientByName(System.String) on controller CoronaApp.Api.Controllers.PatientController (CoronaApp.Api).
+2022-06-06 23:04:38.013 +03:00 [INF] GetPatientByName function called with Naaman name
+2022-06-06 23:04:38.038 +03:00 [INF] Executing ObjectResult, writing value of type 'Location_Lesson_1.Models.Patient'.
+2022-06-06 23:04:38.071 +03:00 [INF] Executed action CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api) in 112.1896ms
+2022-06-06 23:04:38.074 +03:00 [INF] Executed endpoint 'CoronaApp.Api.Controllers.PatientController.GetPatientByName (CoronaApp.Api)'
+2022-06-06 23:04:38.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7146/api/Patient/GetPatientByName/name/Naaman - - - 200 - application/json;+charset=utf-8 234.5880ms

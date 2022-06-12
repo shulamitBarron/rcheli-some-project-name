@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VKJ5if1zsVznzUtWePHqU1ED+8MaqaInm50hGey0hXk=",
+  "Source": "CoronaApp.Api",
+  "BasePath": "_content/CoronaApp.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
