@@ -1,0 +1,15 @@
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\bin\Debug\net6.0\CoronaApp.Dal.deps.json
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\bin\Debug\net6.0\CoronaApp.Dal.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\bin\Debug\net6.0\CoronaApp.Dal.pdb
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\bin\Debug\net6.0\CoronaApp.Services.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\bin\Debug\net6.0\CoronaApp.Services.pdb
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.AssemblyInfo.cs
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.csproj.CopyComplete
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\refint\CoronaApp.Dal.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\CoronaApp.Dal.pdb
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Dal\obj\Debug\net6.0\ref\CoronaApp.Dal.dll

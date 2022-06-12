@@ -1,0 +1,12 @@
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\bin\Debug\net6.0\CoronaApp.Services.deps.json
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\bin\Debug\net6.0\CoronaApp.Services.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\bin\Debug\net6.0\CoronaApp.Services.pdb
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.csproj.AssemblyReference.cache
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.AssemblyInfo.cs
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.csproj.CoreCompileInputs.cache
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\refint\CoronaApp.Services.dll
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\CoronaApp.Services.pdb
+C:\Users\user1\Documents\תרגולים תכנות\קמאטק\Location_Lesson_1\CoronaApp.Services\obj\Debug\net6.0\ref\CoronaApp.Services.dll
